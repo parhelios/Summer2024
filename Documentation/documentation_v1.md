@@ -2,7 +2,15 @@
 
 ## Entities
 
-### ????
+### ListObject
+
+| Property Name   | Data Type | Description                         |
+| --------------- | --------- | ----------------------------------- |
+|Id|Guid/ObjectId| Id in database|
+|Url|||
+|Header|||
+|MainText|||
+
 
 ## Endpoints
 
