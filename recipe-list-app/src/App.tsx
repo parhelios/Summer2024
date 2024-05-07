@@ -1,5 +1,7 @@
 import ListGroup from "./components/ListGroup";
 
+import Alert from "./components/Alert";
+
 function App() {
   let listItems = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"];
 
@@ -14,6 +16,9 @@ function App() {
         heading={"Cities"}
         onSelectItem={handleSelectItem}
       />
+      <Alert>
+        <b>Alert:</b> <span>This is a primary alert—check it out!</span>
+      </Alert>
     </div>
   );
 }
